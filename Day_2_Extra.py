@@ -2,7 +2,7 @@
 fruits = ['apple', 'orange', 'bannana', 'apple']
 names = ['Yoda', 'Moses', 'Joshua', 'Mark']
 
-def check_duplicates():
+def check_duplicates(fruits, names):
 
     if len(fruits) != len(set(fruits)):
         print("Duplicates found!")
@@ -14,4 +14,4 @@ def check_duplicates():
     else:
         print("No Duplicates!")
 
-check_duplicates()
+check_duplicates(fruits,names)
